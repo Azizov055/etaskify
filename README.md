@@ -12,10 +12,10 @@ http://localhost:8081/swagger-ui.html
 - POST /api/auth/login - sign in (admin and other users)
 
 ## Users
-- GET /api/users - getting users of organization (ADMIN access)
+- GET /api/users - get users of organization (ADMIN access)
 - POST /api/users - create user of organization (ADMIN access)
 
 ## Tasks
 - POST /api/tasks - create a task and assign to users (ADMIN access)
-- GET /api/tasks - getting all tasks of organization (ADMIN access)
-- GET /api/tasks/my - getting my tasks
+- GET /api/tasks - get all tasks of organization (ADMIN access)
+- GET /api/tasks/my - get my tasks
