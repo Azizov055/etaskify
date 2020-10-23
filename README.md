@@ -6,7 +6,7 @@
 # To watch APIs you can via swagger
 http://localhost:8081/swagger-ui.html
 
-# Description of APIs
+# APIs Description
 ## Auth
 - POST /api/auth/register - registration admin user
 - POST /api/auth/login - sign in (admin and other users)
