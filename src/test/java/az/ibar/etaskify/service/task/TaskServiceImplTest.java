@@ -145,7 +145,7 @@ class TaskServiceImplTest {
     @Test
     void creationFailure_becauseOfGivenUsersNotExist() {
         Mockito.doThrow(ResourceNotFoundException.class).when(givenUsersExistChecker).check(
-                users.stream().map(u -> u.getId()).collect(Collectors.toList())
+                users.stream().map(User::getId).collect(Collectors.toList())
         );
 
         Assert.assertThrows(ResourceNotFoundException.class, () -> taskService.create(taskPayload));
